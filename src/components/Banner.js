@@ -58,11 +58,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible ? "animate__animated animate__fadeIn" : ""
-                  }
-                >
+                <div className={isVisible ? "animate__animated" : ""}>
                   <h1>
                     {`Hi! I'm Zahraa`}{" "}
                     <span
@@ -84,11 +80,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
               {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible ? "animate__animated animate__zoomIn" : ""
-                  }
-                >
+                <div className={isVisible ? "animate__animated" : ""}>
                   <img src={headerImg} alt="Header Img" />
                 </div>
               )}
