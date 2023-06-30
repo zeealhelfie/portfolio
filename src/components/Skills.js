@@ -36,8 +36,7 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>About Skills</h2>
               <p>
-                I have learned different programming languages ​​so far and as
-                far as my skills are concerned<br></br>
+                <br></br>
               </p>
               <Carousel
                 responsive={responsive}
@@ -65,7 +64,6 @@ export const Skills = () => {
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
     </section>
   );
 };
