@@ -32,7 +32,7 @@ export const NavBar = () => {
   return (
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
-        <Container>
+        <Container className="custom-navbar-container">
           <Navbar.Brand href="/">
             <img src={logo} alt="Logo" />
           </Navbar.Brand>
@@ -81,11 +81,6 @@ export const NavBar = () => {
                   <img src={navIcon1} alt="LinkedIn" />
                 </a>
               </div>
-              <HashLink to="#connect">
-                <button className="vvd">
-                  <span>Let’s Connect</span>
-                </button>
-              </HashLink>
             </span>
           </Navbar.Collapse>
         </Container>

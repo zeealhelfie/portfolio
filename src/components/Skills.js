@@ -34,7 +34,7 @@ export const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>About Skills</h2>
+              <h2>Skills</h2>
               <p>
                 <br></br>
               </p>
@@ -54,10 +54,6 @@ export const Skills = () => {
                 <div className="item">
                   <img src={meter2} alt="Image" />
                   <h5>Database management</h5>
-                </div>
-                <div className="item">
-                  <img src={meter3} alt="Image" />
-                  <h5>Version control</h5>
                 </div>
               </Carousel>
             </div>

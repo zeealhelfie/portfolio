@@ -54,7 +54,7 @@ export const Projects = () => {
                       className="nav-pills mb-5 justify-content-center align-items-center"
                       id="pills-tab"
                     >
-                      <Nav.Item>{/* Nav.Link is removed */}</Nav.Item>
+                      <Nav.Item>{}</Nav.Item>
                     </Nav>
                     <Tab.Content
                       id="slideInUp"
@@ -93,7 +93,6 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
     </section>
   );
 };
