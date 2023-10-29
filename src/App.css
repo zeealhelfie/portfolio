@@ -66,7 +66,7 @@ a:hover {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -84,7 +84,7 @@ select:focus {
 @media (min-width: 1700px) {
   main .container {
     max-width: 100%;
-    padding: 0 150px;
+    padding: 0 50px;
   }
 }
 

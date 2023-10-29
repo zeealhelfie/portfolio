@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/forth project.jpg";
-import projImg2 from "../assets/img/second work.jpg";
-import projImg3 from "../assets/img/project1.jpg";
+import projImg1 from "../assets/img/output.png";
+import projImg2 from "../assets/img/r^2plot.png";
+import projImg3 from "../assets/img/000010.png";
 import projImg4 from "../assets/img/first work.jpg";
 import projImg5 from "../assets/img/fifth work.jpg";
 import projImg6 from "../assets/img/12345.jpg";
@@ -13,27 +13,27 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
-      description: "Design & Development",
+      description: "Gradient Descent: Advertising",
       imgUrl: projImg1,
     },
     {
-      description: "Design & Development",
+      description: "The House Price Prediction Models",
       imgUrl: projImg2,
     },
     {
-      description: "Design & Development",
+      description: "Clustering of Categorical Data: Mushroom Classification",
       imgUrl: projImg3,
     },
     {
-      description: "Design & Development",
+      description: "To Do App",
       imgUrl: projImg4,
     },
     {
-      description: "Design & Development",
+      description: "mysql Employee Tracker",
       imgUrl: projImg5,
     },
     {
-      description: "Design & Development",
+      description: "COMPUTATIONAL LINEAR ALGEBRA",
       imgUrl: projImg6,
     },
   ];
