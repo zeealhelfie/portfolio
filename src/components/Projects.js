@@ -5,7 +5,7 @@ import projImg2 from "../assets/img/r^2plot.png";
 import projImg3 from "../assets/img/000010.png";
 import projImg4 from "../assets/img/first work.jpg";
 import projImg5 from "../assets/img/fifth work.jpg";
-import projImg6 from "../assets/img/12345.jpg";
+import projImg6 from "../assets/img/classi2.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -15,26 +15,33 @@ export const Projects = () => {
     {
       description: "Gradient Descent: Advertising",
       imgUrl: projImg1,
+      githubUrl: "https://github.com/zeealhelfie/GradientDescentAdvertising",
     },
     {
       description: "The House Price Prediction Models",
       imgUrl: projImg2,
+      githubUrl: "https://github.com/zeealhelfie/theHousePricePredictionModels",
     },
     {
       description: "Clustering of Categorical Data: Mushroom Classification",
       imgUrl: projImg3,
+      githubUrl: "https://github.com/zeealhelfie/CategoricalDataAnalysis",
+    },
+    {
+      description: "Classification of Handwritten Digits",
+      imgUrl: projImg6,
+      githubUrl:
+        "https://github.com/zeealhelfie/Math425-Final-Project/blob/master/section%233/classifications.ipynb",
     },
     {
       description: "To Do App",
       imgUrl: projImg4,
+      githubUrl: "https://github.com/yourusername/project4",
     },
     {
       description: "mysql Employee Tracker",
       imgUrl: projImg5,
-    },
-    {
-      description: "COMPUTATIONAL LINEAR ALGEBRA",
-      imgUrl: projImg6,
+      githubUrl: "https://github.com/yourusername/project5",
     },
   ];
 
