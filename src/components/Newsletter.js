@@ -23,7 +23,7 @@ export const Newsletter = ({ status, message, onValidated }) => {
 
   return (
     <Col lg={12}>
-      <div className="newsletter-bx wow slideInUp">
+      <div className="newsletter-bx wow slideInUp" id="connect2">
         <Row>
           <Col lg={12} md={6} xl={5}>
             <h3>Feel free to get in touch with me. Send your email!</h3>

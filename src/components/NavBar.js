@@ -1,10 +1,9 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/ZAHRAA.png";
-import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
+import navIcon1 from "../assets/img/icons8-linkedin-30.png";
 import { HashLink } from "react-router-hash-link";
+import navIconCV from "../assets/img/iconsresume.png";
 import { BrowserRouter as Router } from "react-router-dom";
 
 export const NavBar = () => {
@@ -39,7 +38,7 @@ export const NavBar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse id="basic-navbar-nav" className="custom-collapse">
             <Nav className="ms-auto">
               <Nav.Link
                 href="#home"
@@ -70,18 +69,36 @@ export const NavBar = () => {
               >
                 Projects
               </Nav.Link>
+              <Nav.Link
+                href="https://docs.google.com/document/d/1DOdejIGzGNcmCDcvRTw8x6FS0QERwyTT-rNXO3cRlJE/edit?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={
+                  activeLink === "cv" ? "active navbar-link" : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("cv")}
+              >
+                <img src={navIconCV} alt="CV" />
+              </Nav.Link>
+              <Nav.Link
+                href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={
+                  activeLink === "linkedin"
+                    ? "active navbar-link"
+                    : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("in")}
+              >
+                <img src={navIcon1} alt="in" />
+              </Nav.Link>
             </Nav>
-            <span className="navbar-text">
-              <div className="social-icon">
-                <a
-                  href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={navIcon1} alt="LinkedIn" />
-                </a>
-              </div>
-            </span>
+            <HashLink to="#connect">
+              <button className="vvd">
+                <span>Let’s Connect</span>
+              </button>
+            </HashLink>
           </Navbar.Collapse>
         </Container>
       </Navbar>

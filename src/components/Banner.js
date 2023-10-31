@@ -70,9 +70,6 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p> Hello There 🪄</p>
-                  <button onClick={() => console.log("connect")}>
-                    Let’s Connect <ArrowRightCircle size={25} />
-                  </button>
                 </div>
               )}
             </TrackVisibility>

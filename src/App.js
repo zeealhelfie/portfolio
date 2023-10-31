@@ -5,9 +5,9 @@ import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
-// import { Contact } from "./components/Contact";
+import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
-import { Newsletter } from "./components/Newsletter";
+// import { Newsletter } from "./components/Newsletter";
 function App() {
   return (
     <div className="App">
@@ -15,7 +15,7 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
-      <Newsletter />
+      <Contact />
 
       <Footer hideMailchimpForm={true} />
     </div>
