@@ -1,33 +1,26 @@
-import { Container, Row, Col } from "react-bootstrap";
-import { MailchimpForm } from "./MailchimpForm";
+import { Container } from "react-bootstrap";
 import logo from "../assets/img/ZAHRAA.png";
 import navIcon1 from "../assets/img/icons8-linkedin-30.png";
-import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
 
-export const Footer = ({ hideMailchimpForm }) => {
-  // Receive a prop to determine whether to hide the MailchimpForm
+export const Footer = () => {
+  const footerStyle = {
+    backgroundColor: "rgba(255, 255, 255, 0.5)", // Adjust the alpha channel (0.5) as needed for transparency
+    padding: "20px", // Add padding
+    margin: "10px 0", // Add margin (10px top and bottom, 0px left and right)
+  };
+
   return (
-    <footer className="footer">
+    <footer style={footerStyle} className="text-center text-black">
       <Container>
-        <Row className="align-items-center">
-          {!hideMailchimpForm && <MailchimpForm />}{" "}
-          {/* Conditionally render the MailchimpForm */}
-          <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" />
-          </Col>
-          <Col size={12} sm={6} className="text-center text-sm-end">
-            <div className="social-icon">
-              <a
-                href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={navIcon1} alt="Icon" />
-              </a>
-            </div>
-          </Col>
-        </Row>
+        <div className="p-4 pb-0">
+          © 2023 Copyright:
+          <a
+            className="text-black"
+            href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile/"
+          >
+            linkedin
+          </a>
+        </div>
       </Container>
     </footer>
   );

@@ -35,9 +35,14 @@ export const NavBar = () => {
           <Navbar.Brand href="/">
             <img src={logo} alt="Logo" />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav">
+
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            className="custom-toggler"
+          >
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
+
           <Navbar.Collapse id="basic-navbar-nav" className="custom-collapse">
             <Nav className="ms-auto">
               <Nav.Link
