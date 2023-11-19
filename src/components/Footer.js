@@ -4,9 +4,9 @@ import navIcon1 from "../assets/img/icons8-linkedin-30.png";
 
 export const Footer = () => {
   const footerStyle = {
-    backgroundColor: "rgba(255, 255, 255, 0.5)", // Adjust the alpha channel (0.5) as needed for transparency
-    padding: "20px", // Add padding
-    margin: "10px 0", // Add margin (10px top and bottom, 0px left and right)
+    backgroundColor: "rgba(255, 255, 255, 0.5)",
+    padding: "20px",
+    margin: "10px 0",
   };
 
   return (

@@ -34,9 +34,10 @@ export const Projects = () => {
         "https://github.com/zeealhelfie/Math425-Final-Project/blob/master/section%233/classifications.ipynb",
     },
     {
-      description: "To Do App",
+      description: "Weather App",
       imgUrl: projImg4,
-      githubUrl: "https://github.com/yourusername/project4",
+      githubUrl:
+        "https://github.com/zeealhelfie/weather-app-BreezyBot/tree/master",
     },
     {
       description: "mysql Employee Tracker",
