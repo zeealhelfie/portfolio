@@ -101,7 +101,7 @@ export const NavBar = () => {
             </Nav>
             <HashLink to="#connect">
               <button className="vvd">
-                <span>Let’s Connect</span>
+                <span>Contact</span>
               </button>
             </HashLink>
           </Navbar.Collapse>

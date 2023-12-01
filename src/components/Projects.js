@@ -4,7 +4,7 @@ import projImg1 from "../assets/img/output.png";
 import projImg2 from "../assets/img/r^2plot.png";
 import projImg3 from "../assets/img/000010.png";
 import projImg4 from "../assets/img/first work.jpg";
-import projImg5 from "../assets/img/fifth work.jpg";
+import projImg5 from "../assets/img/schema.png";
 import projImg6 from "../assets/img/classi2.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
@@ -42,7 +42,8 @@ export const Projects = () => {
     {
       description: "mysql Employee Tracker",
       imgUrl: projImg5,
-      githubUrl: "https://github.com/yourusername/project5",
+      githubUrl:
+        "https://github.com/zeealhelfie/MySQL-Employee-Tracker/tree/master",
     },
   ];
 
